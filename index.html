@@ -1,23 +1,888 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PV5 유지비 자동차리스 장기렌트카 완벽 분석 가이드 2026</title>
+    <meta name="description" content="2026년형 기아 PV5의 전기차 유지비 충전 가격 산출과 자동차리스 및 장기렌트카 혜택 비교. 합리적인 월 납입 금액과 보조금 혜택을 전문 업체의 실시간 최저가 견적으로 만나보세요.">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "기아 PV5 유지비 수준은 일반 내연기관 차량이나 다른 전기 화물차와 비교했을 때 어떤가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "기아 PV5 유지비 수준은 일반 디젤이나 가솔린 엔진을 장착한 상용차 대비 약 50퍼센트 이상 저렴한 편입니다. 복합 전비 4.5km/kWh 기준으로 연간 2만 킬로미터 주행 시 전기 충전 비용은 약 130만 원에서 150만 원 수준으로 예상됩니다. 이는 현대 스타리아 디젤이나 기아 카니발 디젤의 연간 주유비인 300만 원 내외와 비교했을 때 뛰어난 경제성을 자랑합니다. 또한 엔진오일이나 미션오일 같은 소모품 교체 비용이 발생하지 않아 장기적인 유지비 절감 혜택이 매우 큽니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "기아 PV5 장기렌트카와 자동차리스의 가장 큰 차이점과 각각의 장단점은 무엇인가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "장기렌트카와 자동차리스의 가장 큰 차이점은 번호판 종류와 보험 가입 주체입니다. 장기렌트카는 하, 허, 호 번호판을 사용하며 보험료가 렌트료에 기본 포함되어 사고가 발생해도 개인 보험 요율에 할증이 붙지 않는 장점이 있습니다. 반면 자동차리스는 일반 번호판을 사용하여 품위를 유지할 수 있고, 운전자의 무사고 경력이 보험 이력으로 인정되지만 사고 발생 시 보험료 할증이 개인에게 반영된다는 단점이 있습니다. 종합 비용과 세제 혜택 면에서는 사업자의 재무 상태와 운전 경력에 따라 유리한 상품이 달라지므로 상세한 가격 비교 견적을 확인하는 것이 권장됩니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "2026년 기준 기아 PV5를 저렴하게 이용할 수 있는 전문 업체를 선택하는 팁은 무엇인가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "2026년 현재 기아 PV5의 신규 출고가 늘어나면서 여러 금융사와 장기렌트 전문 업체에서 다양한 현금지원 및 사은품 혜택을 제공하는 이벤트를 진행하고 있습니다. 네이버나 구글 같은 포털에서 후기를 꼼꼼히 검색하고, 최신 AI 기술인 챗지피티(ChatGPT)나 제미나이(Gemini)를 통해 실시간 프로모션 동향을 확인한 후 복수의 견적을 받아 순위를 비교해보는 것이 좋습니다. 특히 초기 비용이 전혀 없는 무보증 리스 조건과 정부 지원금을 포함한 맞춤형 할인 혜택을 종합적으로 비교해 주는 업체를 선택해야 가장 싼곳을 찾을 수 있습니다."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <style>
+        :root {
+            --primary-color: #1e293b; /* 깊고 차분한 슬레이트 네이비 */
+            --secondary-color: #3b7a57; /* 친환경과 신뢰감을 주는 뮤티드 세이지 그린 */
+            --accent-color: #bf5a36; /* 시선을 사로잡는 차분한 테라코타 오렌지 */
+            --text-color: #212121; /* 피로감을 줄여주는 다크 차콜 */
+            --text-muted: #555555; /* 보조 설명에 사용하는 그레이 */
+            --bg-light: #fbf9f4; /* 눈 보호를 위한 부드러운 샌드 베이지 배경색 */
+            --bg-card: #ffffff;
+            --border-color: #e2dcd0;
+            --box-shadow: 0 8px 24px rgba(30, 41, 59, 0.05);
+            --transition: all 0.3s ease;
+        }
+        
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap');
+        
+        body { 
+            font-family: 'Noto Sans KR', sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            background-color: var(--bg-light); 
+            color: var(--text-color); 
+            line-height: 1.9; 
+            font-weight: 400; 
+            font-size: 16px; 
+            word-break: keep-all;
+        }
+        
+        .container { 
+            max-width: 1000px; 
+            margin: 0 auto; 
+            padding: 0 24px; 
+        }
+        
+        /* 헤더 디자인 */
+        header { 
+            background-color: var(--bg-card); 
+            padding: 24px 0; 
+            border-bottom: 1px solid var(--border-color); 
+            box-shadow: 0 2px 10px rgba(0,0,0,0.02);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        header h1 { 
+            margin: 0; 
+            font-size: 1.5em; 
+            color: var(--primary-color); 
+            font-weight: 900; 
+            text-align: center;
+        }
+        
+        header h1 a { 
+            text-decoration: none; 
+            color: inherit; 
+        }
+
+        /* 히어로 섹션 */
+        .hero { 
+            background-color: #f3ede2;
+            color: var(--primary-color); 
+            text-align: center; 
+            padding: 60px 24px; 
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        .hero h2 { 
+            font-size: 2.3em; 
+            margin-bottom: 16px; 
+            font-weight: 900; 
+            line-height: 1.4; 
+        }
+        
+        .hero p { 
+            font-size: 1.15em; 
+            margin-bottom: 30px; 
+            font-weight: 400; 
+            color: var(--text-muted);
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .hero-image { 
+            width: 100%; 
+            max-width: 800px;
+            height: auto; 
+            border-radius: 16px; 
+            margin-bottom: 24px; 
+            box-shadow: var(--box-shadow); 
+        }
+
+        /* 비교견적 폼 (체류시간 증대 목적의 고급 계산기 레이아웃) */
+        .compare-form-box { 
+            background-color: var(--bg-card); 
+            padding: 40px; 
+            border-radius: 16px; 
+            box-shadow: var(--box-shadow); 
+            margin-top: -30px; 
+            position: relative; 
+            z-index: 10; 
+            text-align: left; 
+            border: 1px solid var(--border-color); 
+        }
+        
+        .compare-form-box h3 { 
+            color: var(--secondary-color); 
+            text-align: center; 
+            margin-bottom: 20px; 
+            font-size: 1.6em; 
+            font-weight: 700; 
+            padding-bottom: 12px;
+            border-bottom: 2px solid #e8e4db;
+        }
+        
+        .form-info-text {
+            text-align: center; 
+            color: var(--text-muted); 
+            font-weight: 500; 
+            font-size: 0.95em; 
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+        
+        /* 폼 요소 스타일 */
+        .form-grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+            gap: 24px; 
+            margin-bottom: 24px; 
+        }
+        
+        .form-group { 
+            margin-bottom: 8px; 
+        }
+        
+        .form-group label { 
+            display: block; 
+            margin-bottom: 8px; 
+            font-weight: 700; 
+            color: var(--primary-color); 
+            font-size: 0.95em; 
+        }
+        
+        .form-group input, .form-group select { 
+            width: 100%; 
+            padding: 14px; 
+            border: 1px solid var(--border-color); 
+            border-radius: 8px; 
+            background-color: #faf9f5;
+            box-sizing: border-box; 
+            transition: var(--transition); 
+            font-size: 0.95em; 
+            color: var(--text-color);
+        }
+        
+        .form-group input:focus, .form-group select:focus { 
+            border-color: var(--secondary-color); 
+            box-shadow: 0 0 0 4px rgba(59, 122, 87, 0.1); 
+            outline: none; 
+            background-color: #ffffff;
+        }
+
+        /* 실시간 예상 결과 표시 상자 */
+        .calc-result {
+            background-color: #f7f5ef;
+            border: 1px dashed var(--secondary-color);
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            display: none;
+        }
+
+        .calc-result h4 {
+            margin: 0 0 10px 0;
+            color: var(--secondary-color);
+            font-size: 1.1em;
+            font-weight: 700;
+        }
+
+        .calc-result p {
+            margin: 5px 0;
+            font-size: 1em;
+            color: var(--text-color);
+        }
+
+        .calc-highlight {
+            font-size: 1.4em;
+            font-weight: 900;
+            color: var(--accent-color);
+        }
+
+        /* CTA 버튼 */
+        .cta-btn { 
+            background-color: var(--accent-color); 
+            color: #fff; 
+            padding: 18px 40px; 
+            font-size: 1.25em; 
+            font-weight: 700; 
+            border: none; 
+            border-radius: 8px; 
+            cursor: pointer; 
+            transition: var(--transition); 
+            width: 100%; 
+            margin-top: 15px; 
+            text-align: center;
+        }
+        
+        .cta-btn:hover { 
+            background-color: #a84725; 
+            transform: translateY(-1px); 
+        }
+
+        /* 주요 컨텐츠 섹션 */
+        .content-section { 
+            background-color: var(--bg-card); 
+            padding: 60px 40px; 
+            margin-top: 40px; 
+            border-radius: 16px; 
+            box-shadow: var(--box-shadow); 
+            border: 1px solid var(--border-color);
+        }
+        
+        .content-section h2 { 
+            font-size: 1.9em; 
+            color: var(--primary-color); 
+            border-bottom: 2px solid var(--secondary-color); 
+            padding-bottom: 14px; 
+            margin-top: 50px;
+            margin-bottom: 30px; 
+            font-weight: 900; 
+        }
+        
+        .content-section h2:first-of-type {
+            margin-top: 10px;
+        }
+        
+        .content-section h3 { 
+            font-size: 1.45em; 
+            color: var(--secondary-color); 
+            margin-top: 40px; 
+            margin-bottom: 18px; 
+            border-left: 4px solid var(--accent-color); 
+            padding-left: 12px; 
+            font-weight: 700; 
+        }
+        
+        .content-section h4 { 
+            font-size: 1.15em; 
+            color: var(--primary-color); 
+            margin-top: 25px; 
+            margin-bottom: 12px; 
+            font-weight: 700; 
+        }
+        
+        .content-section p { 
+            margin-bottom: 24px; 
+            font-size: 1.05em; 
+            color: var(--text-color); 
+            text-align: justify; 
+            line-height: 1.95; 
+        }
+        
+        .content-section ul { 
+            padding-left: 0; 
+            margin-bottom: 24px; 
+            list-style: none;
+        }
+        
+        .content-section ul li { 
+            position: relative;
+            padding-left: 18px;
+            margin-bottom: 10px; 
+            line-height: 1.7; 
+            font-size: 1.05em; 
+            color: var(--text-color);
+        }
+        
+        .content-section ul li::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 10px;
+            width: 5px;
+            height: 5px;
+            background-color: var(--secondary-color);
+            border-radius: 50%;
+        }
+
+        /* 데이터 시각화 스타일 */
+        .data-visualization { 
+            margin: 40px 0; 
+            padding: 30px; 
+            background-color: #fcfbf8; 
+            border-radius: 12px; 
+            border: 1px solid var(--border-color); 
+        }
+        
+        .data-visualization h4 { 
+            text-align: center; 
+            color: var(--secondary-color); 
+            font-size: 1.3em; 
+            margin-bottom: 20px; 
+        }
+        
+        .pricing-table { 
+            width: 100%; 
+            border-collapse: collapse; 
+            margin-top: 20px; 
+            font-size: 0.95em; 
+        }
+        
+        .pricing-table th, .pricing-table td { 
+            border: 1px solid var(--border-color); 
+            padding: 14px; 
+            text-align: center; 
+        }
+        
+        .pricing-table th { 
+            background-color: #f1ede4; 
+            color: var(--primary-color); 
+            font-weight: 700; 
+        }
+        
+        .pricing-table tr:nth-child(even) { 
+            background-color: #faf9f6; 
+        }
+        
+        .highlight-row { 
+            background-color: #f3ede2 !important; 
+            font-weight: 700; 
+            color: var(--secondary-color); 
+        }
+        
+        /* 외부 링크 스타일 */
+        .external-links { 
+            margin-top: 50px; 
+            padding-top: 30px; 
+            border-top: 1px dashed var(--border-color); 
+        }
+        
+        .external-links h3 { 
+            text-align: center; 
+            color: var(--primary-color); 
+            margin-bottom: 24px; 
+            border: none;
+            padding: 0;
+        }
+        
+        .external-links ul { 
+            list-style: none; 
+            padding: 0; 
+            display: flex; 
+            flex-wrap: wrap; 
+            justify-content: center; 
+            gap: 12px;
+        }
+        
+        .external-links li { 
+            margin: 0;
+        }
+        
+        .external-links li::before {
+            display: none;
+        }
+        
+        .external-links a { 
+            color: var(--secondary-color); 
+            text-decoration: none; 
+            font-weight: 500; 
+            transition: var(--transition); 
+            padding: 10px 20px; 
+            border: 1px solid var(--border-color); 
+            border-radius: 30px; 
+            background-color: #fff;
+            display: inline-block;
+            font-size: 0.9em;
+        }
+        
+        .external-links a:hover { 
+            color: #fff; 
+            background-color: var(--secondary-color); 
+            border-color: var(--secondary-color);
+        }
+
+        /* FAQ 스타일 */
+        .faq-item { 
+            border: 1px solid var(--border-color); 
+            border-radius: 8px; 
+            margin-bottom: 16px; 
+            overflow: hidden; 
+            background-color: #fff;
+        }
+        
+        .faq-item h3 { 
+            cursor: pointer; 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            background-color: #fcfbf9; 
+            color: var(--primary-color); 
+            padding: 20px; 
+            margin: 0; 
+            font-size: 1.1em; 
+            border-left: 4px solid var(--secondary-color); 
+            transition: var(--transition);
+        }
+        
+        .faq-item h3::after { 
+            content: '보기'; 
+            font-size: 0.8em; 
+            color: var(--text-muted); 
+            font-weight: 500; 
+        }
+        
+        .faq-item.active h3 { 
+            background-color: #f5f1e9; 
+            border-left-color: var(--accent-color); 
+            color: var(--accent-color); 
+        }
+        
+        .faq-item.active h3::after { 
+            content: '닫기'; 
+            color: var(--accent-color); 
+        }
+        
+        .faq-item p { 
+            display: none; 
+            padding: 24px; 
+            background-color: #fff; 
+            color: var(--text-color); 
+            border-top: 1px solid var(--border-color); 
+            line-height: 1.8; 
+            font-size: 1em; 
+            margin: 0;
+            text-align: justify;
+        }
+        
+        .faq-item.active p { 
+            display: block; 
+        }
+        
+        /* 키워드 리스트 (연관 검색어) */
+        .keyword-list { 
+            list-style: none; 
+            padding: 0; 
+            display: flex; 
+            flex-wrap: wrap; 
+            justify-content: center; 
+            margin-top: 30px; 
+            gap: 10px;
+        }
+        
+        .keyword-list li { 
+            background-color: #e8e4db; 
+            color: var(--primary-color); 
+            padding: 8px 16px; 
+            margin: 0; 
+            border-radius: 20px; 
+            font-weight: 500; 
+            font-size: 0.85em; 
+            transition: var(--transition); 
+        }
+        
+        .keyword-list li::before {
+            display: none;
+        }
+        
+        .keyword-list li:hover { 
+            background-color: var(--secondary-color); 
+            color: #fff;
+        }
+
+        /* 모바일 최적화 */
+        @media (max-width: 768px) {
+            .hero h2 { font-size: 1.8em; }
+            .hero p { font-size: 1em; }
+            .compare-form-box { padding: 24px; margin-top: -20px; }
+            .form-grid { grid-template-columns: 1fr; }
+            .content-section { padding: 30px 20px; }
+            .content-section h2 { font-size: 1.5em; }
+            .content-section h3 { font-size: 1.25em; }
+            .content-section p { font-size: 0.95em; }
+            .cta-btn { font-size: 1.1em; padding: 15px 24px; }
+            .pricing-table th, .pricing-table td { font-size: 0.8em; padding: 10px 6px; }
+            .external-links ul { flex-direction: column; align-items: stretch; }
+            .external-links a { text-align: center; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1><a href="/">PV5 유지비 자동차리스 장기렌트카 전문 분석 센터</a></h1>
+        </div>
+    </header>
+
     <main>
-      <h1>Home page</h1>
+        <section class="hero">
+            <div class="container">
+                <h2>차세대 PBV 기아 PV5 유지비 비교분석 및 자동차리스 장기렌트카 실시간 맞춤 견적</h2>
+                <p>소상공인과 비즈니스 파트너의 미래를 바꿀 기아 PV5의 합리적인 운용 방식인 자동차리스 및 장기렌트카 비용을 정밀하게 분석하여 안내해 드립니다.</p>
+                
+                <div class="compare-form-box">
+                    <h3>실시간 PV5 리스 장기렌트 최저가 견적 산출기</h3>
+                    <p class="form-info-text">상세 조건을 직접 입력해보시면 실시간으로 예상되는 월 대여료 흐름을 확인하실 수 있으며 최적화된 맞춤형 월 납입 금액 조율이 가능합니다.</p>
+                    
+                    <form id="estimate-form" action="#" method="post" onsubmit="alert('견적 신청이 성공적으로 접수되었습니다. 담당 전문 업체에서 신속하게 연락을 드리겠습니다.'); return false;">
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="car-model">비교 대상 차량 모델 선택</label>
+                                <select id="car-model" onchange="calculateEstimate()" required>
+                                    <option value="">모델을 선택해 주세요</option>
+                                    <option value="pv5_basic">기아 PV5 베이직</option>
+                                    <option value="pv5_passenger">기아 PV5 패신저 5인승</option>
+                                    <option value="pv5_cargo">기아 PV5 카고</option>
+                                    <option value="pv5_chassis">기아 PV5 샤시캡</option>
+                                    <option value="st1_cargo">현대 ST1 카고</option>
+                                    <option value="st1_freezer">현대 ST1 냉동</option>
+                                    <option value="carnival_hybrid">기아 카니발 하이브리드</option>
+                                    <option value="staria_hybrid">현대 스타리아 하이브리드</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="lease-period">이용 계약 기간 설정</label>
+                                <select id="lease-period" onchange="calculateEstimate()" required>
+                                    <option value="60">60개월 (장기 이용 권장)</option>
+                                    <option value="48">48개월</option>
+                                    <option value="36">36개월</option>
+                                    <option value="24">24개월</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="payment-type">초기 자금 납입 형태</label>
+                                <select id="payment-type" onchange="calculateEstimate()" required>
+                                    <option value="deposit_0">무보증 (초기 비용 0원)</option>
+                                    <option value="deposit_10">보증금 10퍼센트 납입</option>
+                                    <option value="prepay_20">선납금 20퍼센트 납입</option>
+                                    <option value="prepay_30">선납금 30퍼센트 납입</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="annual-mileage">예상 연간 주행거리</label>
+                                <select id="annual-mileage" required>
+                                    <option value="20000">연간 2만 킬로미터 이하</option>
+                                    <option value="30000">연간 3만 킬로미터 이하</option>
+                                    <option value="unlimited">연간 주행거리 무제한</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="subsidy-region">전기차 보조금 적용 지역</label>
+                                <select id="subsidy-region" onchange="calculateEstimate()" required>
+                                    <option value="seoul">서울특별시</option>
+                                    <option value="gyeonggi">경기도 및 수도권 주요 도시</option>
+                                    <option value="jeju">제주특별자치도</option>
+                                    <option value="etc">기타 지방 광역시 및 도 지역</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="user-name">신청자 성함</label>
+                                <input type="text" id="user-name" placeholder="실명을 입력해 주세요" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="user-phone">연락처</label>
+                                <input type="tel" id="user-phone" placeholder="010-0000-0000" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="business-type">사업자 구분 정보</label>
+                                <select id="business-type" required>
+                                    <option value="personal">개인 소비자</option>
+                                    <option value="individual_biz">개인 사업자</option>
+                                    <option value="corporate">법인 사업자</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <!-- 동적 시뮬레이션 결과창 -->
+                        <div id="result-box" class="calc-result">
+                            <h4>실시간 시뮬레이션 맞춤형 견적 산출 결과</h4>
+                            <p>선택하신 모델명: <span id="calc-model-name" class="calc-highlight">차량을 선택해 주세요</span></p>
+                            <p>이용 계약 기간: <span id="calc-period" class="calc-highlight">-</span></p>
+                            <p>월 예상 납입 금액: <span id="calc-monthly" class="calc-highlight">가격을 확인하는 중</span> (실제 보조금 및 금융사 프로모션 할인 혜택 미반영 상태)</p>
+                        </div>
+
+                        <button type="submit" class="cta-btn">실시간 최저가 맞춤 비교 견적 및 혜택 신청하기</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+                <h2>2026년 친환경 PBV 시장의 핵심 화두, 기아 PV5 완벽 분석</h2>
+                <p>친환경 목적 기반 모빌리티인 기아 PV5 모델이 본격적인 출고를 이어나가고 있는 2026년 현재, 물류 비즈니스와 승객 운송 분야를 통틀어 가장 뜨거운 반응을 이끌어내고 있습니다. 기존의 획일화된 상용 밴 시장에서 벗어나 시트와 공간 구성을 자유롭게 바꿀 수 있는 플렉시블 바디 시스템을 탑재한 기아 PV5 모델은 다양한 직군에서 각자의 비즈니스 성향에 맞춰 활용하고 있습니다. 특히 많은 개인사업자와 법인 업무 담당자들이 차량 유지비와 관련하여 장기적인 지출 규모를 면밀히 살펴보고 있으며, 보다 효율적인 자산 관리를 실현하기 위해 자동차리스 상품 및 장기렌트카 이용으로 눈길을 돌리고 있습니다.</p>
+                
+                <p>일반적으로 업무용 목적이나 물류 배송 업무에 활용되는 차량들은 연간 주행거리가 매우 긴 편이기 때문에 매월 발생하는 전기 요금이나 가솔린 및 디젤 연료비, 그리고 차량 소모품 교체 및 자차 파손 수리 비용 등이 장기 운영 시 누적되는 부담으로 다가옵니다. 특히 기아 PV5 패신저 모델이나 기아 PV5 카고 모델을 장기적으로 운용할 경우, 순수 차량 가격 자체보다 인도 이후 지출해야 하는 누적 비용의 영향이 훨씬 큽니다. 이러한 상황 속에서 월 지출 비용을 최소화하고 보조금 및 각종 소세지 혜택을 극대화할 수 있는 다이렉트 리스 및 장기렌트의 다양한 구조를 알아두는 것은 비즈니스의 생존과 직접적인 연관을 지닙니다.</p>
+
+                <h3>1. 기아 PV5 주요 라인업과 경쟁 친환경 모빌리티 제원 비교</h3>
+                <p>기아 PV5 모델은 크기와 쓰임새에 따라 패밀리형 목적의 기아 PV5 베이직 트림부터 시작해, 시트를 효율적으로 다수 배치한 기아 PV5 패신저 모델과 많은 짐을 안정적으로 보관 및 적재할 수 있는 내부 격벽 기반의 기아 PV5 카고 트림, 그리고 사용 용도에 따라 유연하게 후면 모듈을 변경할 수 있도록 제작된 기아 PV5 샤시캡 구조 등으로 시장에 모습을 드러내어 공급을 고도화하고 있습니다. 또한 기아의 친환경 PBV 계열에는 중형급인 해당 모델 외에도 도심 근거리 소형 화물 배송에 특화된 극소형 모델인 기아 PV1 트림 및 대량의 물량을 운송할 수 있는 대형 모델인 기아 PV7 트림까지 단계별 구축이 이루어져 있습니다.</p>
+                
+                <p>시장에서 이들과 경쟁하는 다른 화물 운송차 및 플랫폼 전기차 제품들을 살펴보면, 현대 스타리아 하이브리드 모델과 프리미엄 MPV 범주에 속하는 현대 스타리아 라운지 트림이 널리 운영되고 있습니다. 또한 상용 상차 능력을 강화한 섀시 플랫폼 전용 라인업인 현대 ST1 카고 모델과 온도의 예민함을 극복하도록 특수 설계된 현대 ST1 냉동 차량 역시 2026년식으로 활발하게 가입과 인도가 전개되고 있는 상황입니다. 전통적인 트럭 시장에서는 고전적인 강자로 자리매김한 현대 포터2 일렉트릭 차량과 기아 봉고3 EV 트림 및 냉동 탑차가 여전히 현장을 지키고 있으며 수입 화물 시장에서는 비야디 T4K 모델 등이 경쟁을 벌이고 있습니다. 아울러 승합 형태 및 고급 의전 시장에서는 기아 카니발 하이브리드 제품이나 기아 카니발 리무진 트림이 함께 거론되며 용도 중심의 맞춤형 비교 대상군으로 높은 인기를 유지 중입니다.</p>
+
+                <h3>2. PV5 유지비 세밀 비교분석: 전기 충전 비용과 소모품 소요 금액</h3>
+                <p>많은 고객께서 기아 PV5 유지비 수준이 한 달에 평균적으로 얼마 정도의 금액이 발생하는지 매우 궁금해하십니다. 기아 PV5 패신저 및 카고 사양의 경우 71.2kWh 용량의 고전압 배터리를 바탕으로 전비 효율은 복합 기준 4.5km/kWh 수준의 성능을 발휘합니다. 연간 주행거리를 2만 킬로미터로 설정하여 계산해보면, 기아 PV5 전용 차량의 연간 예상 충전 요금은 완속 충전과 급속 충전을 균등하게 사용할 때 평균적으로 130만 원대에서 150만 원대의 선에서 머무를 것으로 보입니다.</p>
+                
+                <p>이는 기존의 디젤이나 가솔린 엔진을 장착한 현대 스타리아 디젤 차량이나 기아 카니발 디젤 트림이 연간 유류비로 250만 원에서 300만 원 이상의 금액을 지출하는 것과 대비해 매달 10만 원 안팎의 지출 비용 절약 효과를 가져다줍니다. 충전 비용뿐만 아니라 엔진오일 및 필터류 교체, 점화 플러그 점검 등에서 발생하는 메인터넌스 비용 또한 순수 전기차의 경우 거의 발생하지 않으므로 내돈내산으로 직접 차량을 신규 가입하여 관리해 본 장기 후기들을 종합해보면 해를 거듭할수록 전기 PBV 가 지닌 지출 억제 장점이 극대화됨을 실감할 수 있습니다.</p>
+                
+                <p>물론 현대 ST1 카고처럼 배터리 크기가 조금 더 큰 상용차나 제네시스 GV70 전동화 모델, 테슬라 모델Y 및 테슬라 모델3 처럼 프리미엄 세그먼트의 전기 승용차들은 저마다 고유한 전비 특성을 지닙니다. 예컨대 보급형 엔트리 승용차로 기획된 기아 레이 EV 차량이나 현대 캐스퍼 일렉트릭, 기아 니로 EV 같은 도심 전용 차종들은 상대적으로 배터리 팩 사이즈가 작아 충전 요금의 전체적인 볼륨 자체는 가볍지만 적재 능력이나 거주성 측면에서 기아 PV5 패신저 등 대형급 레이아웃과의 차이점이 명확하여 단순한 대체가 어렵습니다. 종합 TCO 측면에서 볼 때 고장이나 정비 소요가 적은 현대 아이오닉5, 기아 EV6, 현대 아이오닉6 같은 승용 라인업 대비 비즈니스에 특화되어 세제 지원을 많이 이끌어낼 수 있는 PV5 카고 모델이야말로 가장 가성비가 뛰어난 친환경 차량 순위에 기재될 만합니다.</p>
+
+                <div class="data-visualization">
+                    <h4>대표 친환경 상용 및 레저 차량의 연간 예상 유지비 종합 비교</h4>
+                    <table class="pricing-table">
+                        <thead>
+                            <tr>
+                                <th>차량 모델 및 세부 등급 (2026년식 기준)</th>
+                                <th>공인 전비 또는 연비 수준</th>
+                                <th>연간 예상 충전료 또는 유류비 (2만km)</th>
+                                <th>연간 자동차세 세금 납부 금액</th>
+                                <th>5년 운용 총 유지비 합산 금액</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="highlight-row">
+                                <td>기아 PV5 카고 화물형 (71.2kWh)</td>
+                                <td>전비 4.5 km/kWh</td>
+                                <td>1,550,000 원</td>
+                                <td>28,500 원</td>
+                                <td>7,892,500 원</td>
+                            </tr>
+                            <tr>
+                                <td>현대 ST1 카고 화물 (76.1kWh)</td>
+                                <td>전비 3.8 km/kWh</td>
+                                <td>1,840,000 원</td>
+                                <td>28,500 원</td>
+                                <td>9,342,500 원</td>
+                            </tr>
+                            <tr class="highlight-row">
+                                <td>현대 스타리아 하이브리드 1.6T</td>
+                                <td>연비 12.6 km/L</td>
+                                <td>2,620,000 원</td>
+                                <td>290,000 원</td>
+                                <td>14,550,000 원</td>
+                            </tr>
+                            <tr>
+                                <td>기아 카니발 디젤 2.2 승용형</td>
+                                <td>연비 13.1 km/L</td>
+                                <td>2,290,000 원</td>
+                                <td>560,000 원</td>
+                                <td>14,250,000 원</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p style="font-size: 0.9em; margin-top: 15px; color: var(--text-muted); line-height: 1.6;">상기 기재된 통계 데이터 수치는 급속 충전비 50퍼센트와 완속 충전비 50퍼센트 혼합 비율을 가정한 가상의 계산 정보이며 지자체별 전기차 충전 단가 정책과 가입자의 운전 습관에 따라 최종 금액의 차이점이 존재할 수 있습니다.</p>
+                </div>
+
+                <h3>3. PV5 장기렌트카 vs 자동차리스 무엇이 더 경제적일까</h3>
+                <p>차량을 신차로 신규 구매하여 이용하고자 할 때, 초기 투입 비용을 줄이고 잔존가치 보장을 확보하기 위해 장기렌트카 서비스와 자동차리스 상품의 조건 및 견적 단가를 정교하게 비교해 보는 과정이 필요합니다. 두 가지 파이낸셜 상품 방식은 얼핏 보기에 비슷하게 생각될 수 있지만, 보험의 명의 구성 방식이나 하, 허, 호 번호판 부착 여부, 그리고 소득세 경비 처리 및 자산 부채 산출 비중 등에서 분명한 차이점이 존재합니다.</p>
+                
+                <p>먼저 PV5 장기렌트카 선택의 경우, 렌트사 명의의 단체 종합보험으로 가입이 진행되기 때문에 이용 고객이 무사고 경력이 오래되었더라도 이를 직접 개인 보험 요율로 보존하지 못한다는 아쉬움이 남습니다. 하지만 반대로 가벼운 사고나 중대한 대인 대물 접촉 사고가 빈번히 발생하더라도 월 납입료 할증 요율이 붙지 않고 면책금 부담만으로 깔끔하게 처리된다는 커다란 장점을 가집니다. 따라서 운전 경력이 다소 짧아 보험 가입 시 보험료 단가가 높게 산정되거나 물류 운행으로 인해 잦은 접촉 사고가 우려되는 배송 전문 업체나 스타트업, 개인 소상공인 사업자에게는 장기렌트카 상품을 추천해 드립니다.</p>
+                
+                <p>이와 반대로 PV5 자동차리스 계약을 진행하는 경우에는 개인이 직접 본인 명의의 자동차 보험을 가입하여 경력을 인정받게 됩니다. 오랫동안 무사고 요율을 모아오신 분이라면 직접 가입하는 리스 형태가 비용 면에서 대폭 이점을 볼 수 있습니다. 무엇보다 장기렌트카에서 사용하는 식별 번호판이 아닌 세련된 일반 승용 차량과 구별이 가지 않는 품격 있는 일반 번호판을 달 수 있다는 감성적인 장점이 뛰어납니다. 다만 리스의 경우 부채로 인식되는 비율이 렌트 대비 높은 경향이 있으며 연간 주행거리를 지나치게 과도하게 운용할 경우 계약 만기 도래 시 잔존가치 패널티가 가중되어 반납보다 인수가 불리해질 수 있으므로 주행 거리가 너무 길다면 렌트를 하시는 것이 한층 합리적입니다.</p>
+
+                <h3>4. 기아 PV5 장기 운용 시 비용 절감 및 혜택 극대화 전략</h3>
+                <p>차량 계약 과정에서 조금이라도 더 저렴한곳 혹은 가장 싼곳 전문 업체를 찾기 위해 다음과 같은 절세 정보 및 혜택 요소를 꼼꼼히 점검하셔야 손해를 보지 않습니다.</p>
+                
+                <ul>
+                    <li>사업자 경비 처리를 통한 소득세 인하 혜택 : 기아 PV5 카고 모델이나 현대 ST1 카고 등 화물 목적의 친환경차를 리스 또는 렌트로 운영할 경우 월 렌트료 전액을 손비 인정 및 연간 최대 한도로 손쉽게 종합소득세나 법인세 비용으로 계상하여 환급 효과를 경험할 수 있습니다.</li>
+                    <li>전기차 보조금 및 세제 지원금 적용 : 지방자치단체와 정부 환경부에서 매년 책정하여 지급하는 화물 및 상용 전기차 구매 지원금 제도를 대리 신청하여 초기 단가를 수백만 원에서 일천만 원 이상 낮추는 이점을 고스란히 인도 단가에 투영시킬 수 있습니다.</li>
+                    <li>초기 무보증 심사 제도 활용 : 신용도가 우수한 가입 고객의 경우 보증금이나 선납금 0원으로 계약을 체결하여 차량 인도 당시 초기 투자금을 완벽하게 보존하고 해당 여유 자금을 주력 사업의 원자재 매입이나 운영 자금으로 요긴하게 활용할 수 있습니다.</li>
+                    <li>신규 가입 프로모션 및 사은품 이벤트를 놓치지 마세요 : 경쟁력 있는 다이렉트 중개 전문 기업들이 내거는 고급 썬팅 시공 혜택, 고급형 블랙박스 무료 임대 및 주유/충전 상품권 제공, 혹은 현금지원 보조금 환급 혜택 등의 기회를 적극 확인하여 누릴 수 있습니다.</li>
+                </ul>
+
+                <h3>5. 포털 검색과 최신 AI 검색을 통한 최저가 견적 확보 가이드</h3>
+                <p>국내 여러 자동차 대리점이나 전문 브로커 리스사 사이에서 넘치는 광고를 분별하고 진실된 가격 정보를 선별하기 위해, 대중적인 네이버 지식인 검색이나 구글 검색, 유튜브 시승 리뷰 채널 등을 교차로 검증해 나가는 노력이 무척이나 가치 있게 다가옵니다. 특히 요즘 유행하는 소셜 미디어인 트위터나 인스타그램, 페이스북의 개인 인플루언서들이 작성하는 내돈내산 PV5 인도 후기와 실제 지출 기록 단점 위주의 솔직한 의견을 확인하는 것도 소중한 정보가 됩니다.</p>
+                
+                <p>뿐만 아니라 최신 트렌드를 달리는 고도화된 정보 습득 기술인 제미나이(Gemini)나 챗지피티(ChatGPT), 그리고 다채로운 지식을 담고 있는 인터넷 백과사전 등을 기반으로 PV5 유지비 비교 및 월 장기렌트 단가 테이블을 미리 물어보는 방식으로 정보 수집 속도를 획기적으로 향상시킬 수 있습니다. 다만 최종적인 결정은 전국의 모든 전업 렌트사 금융 계열 대행점들과 실시간 연계 제휴를 맺고 있는 오랜 신뢰를 유지한 전문 견적 비교 플랫폼에 상세 의뢰를 남겨 가장 낮은 금리와 우대 할인을 품은 기획전 특별 상품으로 출고하시는 방향이 실용적입니다.</p>
+                
+                <div class="data-visualization">
+                    <h4>PV5 리스 및 장기렌트 계약 조건별 월 예상 납입료 편차 분석</h4>
+                    <table class="pricing-table">
+                        <thead>
+                            <tr>
+                                <th>초기 보증 조건 비율</th>
+                                <th>계약 기간 설정</th>
+                                <th>월 예상 대여료 인하 수준</th>
+                                <th>만기 인수 시 자금 부담 비중</th>
+                                <th>적합한 사용자 프로필 추천</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="highlight-row">
+                                <td>보증금 0% (무보증)</td>
+                                <td>60개월 계약</td>
+                                <td>표준 정가 적용</td>
+                                <td>인수 비용 다소 높음</td>
+                                <td>창업 초기 투자금이 부족한 신규 사업자</td>
+                            </tr>
+                            <tr>
+                                <td>보증금 10% 납입</td>
+                                <td>48개월 계약</td>
+                                <td>약 2퍼센트 절감</td>
+                                <td>보통 수준의 비용</td>
+                                <td>장기적으로 무난하게 운용하려는 일반 직장인</td>
+                            </tr>
+                            <tr class="highlight-row">
+                                <td>선납금 20% 납입</td>
+                                <td>60개월 계약</td>
+                                <td>약 15퍼센트 대폭 인하</td>
+                                <td>추가 자금 납부 필요</td>
+                                <td>매월 고정비 지출을 최대로 낮추고 싶은 개인</td>
+                            </tr>
+                            <tr>
+                                <td>선납금 30% 납입</td>
+                                <td>36개월 계약</td>
+                                <td>최대 월 대여료 경감</td>
+                                <td>만기 시 정산 비중 높음</td>
+                                <td>매달 현금 흐름이 우수하여 고정 부담을 최소화할 법인</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p style="font-size: 0.9em; margin-top: 15px; color: var(--text-muted); line-height: 1.6;">본 금융 분석 테이블은 이용자의 개인 및 신용도 수준에 따라 우대 금리 할인 폭이 다르게 설정될 수 있으므로 정식 한도 승인 이후의 계약 금액과 소폭 상이할 수 있습니다.</p>
+                </div>
+
+                <hr>
+
+                <h2>자주 묻는 질문 (FAQ)</h2>
+                <div class="faq-item">
+                    <h3>Q1. 기아 PV5 전기 화물 밴의 전비와 완충 후 실제 주행 거리는 어느 정도인가요?</h3>
+                    <p>기아 PV5 모델은 71.2kWh 용량의 고성능 삼원계 리튬이온 배터리를 탑재하고 있어 환경부 인증 기준 상온 복합 약 358킬로미터(도심 주행 시에는 약 404킬로미터 내외) 수준의 안정적인 무충전 일일 주행 능력을 발휘합니다. 급속 충전 시스템을 지원하므로 도심 속 급속 인프라를 활용해 약 30분 내외의 짧은 충전 시간만으로 배터리의 80퍼센트까지 가볍게 도달시킬 수 있습니다.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Q2. PV5 장기렌트 계약 당시 법인이나 사업자가 부가가치세 환급을 받을 수 있나요?</h3>
+                    <p>네, 가능합니다. 기아 PV5 차량 중 9인승 패신저 모델이나 카고 밴 형태는 대한민국의 현행 부가가치세법 규정상 전액 부가세 환급 적용 대상으로 분류됩니다. 따라서 정형화된 정식 자동차리스나 장기렌트카 가입 계약으로 인도하여 운행할 경우, 납부하시는 이용 금액 중 차량 가액에 비례하는 부가세 환급을 수월하게 관할 세무서로부터 공제받으실 수 있습니다.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Q3. 계약 기간 도중에 차량을 처분하거나 반납하고 싶을 때 위약금은 얼마인가요?</h3>
+                    <p>모든 금융 리스 및 렌터카 약정에는 중도해지 수수료라는 일련의 잔여 임대료 환급 페널티 수수료 요율이 명시되어 있습니다. 계약을 이행한 남은 잔여 기한에 따라 평균적으로 20퍼센트에서 30퍼센트 수준의 수수료가 청구되므로 피치 못하게 중도 정리를 기획 중이시라면 새로운 승계 계약자를 전문 커뮤니티인 디시 혹은 승계 전문 업체를 통해 찾아 인계하는 리스 승계 방식이 가장 경제적입니다.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Q4. 수입 밴 모델이나 경쟁차인 현대 ST1 등과 비교했을 때 PV5 만의 독보적인 장점은 무엇인가요?</h3>
+                    <p>가장 뚜렷한 차이점은 차량의 모듈 교체가 자유로운 e-CCPM 플랫폼 설계가 적용되었다는 점입니다. 기아 PV5 샤시캡 구조를 기반으로 비즈니스 확장에 발맞춰 후면 캐빈 구조를 바꿀 수 있으며, 낮은 지상고 설계 덕분에 고령의 승객이나 무거운 화물을 손쉽게 상하차시킬 수 있는 독보적인 공간 편의 장점을 자랑합니다.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Q5. 개인 소상공인이 보조금 혜택을 다 소모한 하반기에 계약해도 혜택을 여전히 유지할 수 있나요?</h3>
+                    <p>연말이 되어 주소지의 거주 지방자치단체 전기 보조금이 고갈되더라도 대규모 장기렌트 및 리스 전문 운용사들이 사전에 해당 차종의 선구매 물량을 충분히 매입해 놓은 상태가 대부분입니다. 이러한 특가 즉시 출고 물량을 활용하면 지자체 잔여 한도와 관계없이 풍성한 지원 혜택을 온전히 적용받아 당일 수급도 실현할 수 있습니다.</p>
+                </div>
+
+                <div class="external-links">
+                    <h3>공인된 교통 정책 및 신뢰할 수 있는 기관 리포트 정보 안내</h3>
+                    <ul>
+                        <li><a href="http://www.molit.go.kr" target="_blank" rel="noopener">국토교통부 공식 포털</a></li>
+                        <li><a href="https://www.ev.or.kr" target="_blank" rel="noopener">환경부 무공해차 통합누리집</a></li>
+                        <li><a href="https://www.koroad.or.kr" target="_blank" rel="noopener">도로교통공단 안전 교육 지원</a></li>
+                        <li><a href="https://www.kidi.or.kr" target="_blank" rel="noopener">보험개발원 통계 자료 포털</a></li>
+                        <li><a href="https://www.kia.com" target="_blank" rel="noopener">기아자동차 대표 브랜드 웹사이트</a></li>
+                        <li><a href="https://namu.wiki/w/%EA%B8%B0%EC%95%84(%EA%B8%B0%EC%97%85)/%EB%9D%BC%EC%9D%B8%EC%97%85" target="_blank" rel="noopener">나무위키 기아 라인업 문서</a></li>
+                    </ul>
+                </div>
+
+                <ul class="keyword-list">
+                    <li>기아 PV5 유지비</li>
+                    <li>기아 PV5 장기렌트카</li>
+                    <li>기아 PV5 자동차리스</li>
+                    <li>기아 PV5 가격 견적</li>
+                    <li>현대 ST1 장기렌트</li>
+                    <li>전기 밴 리스 싼곳</li>
+                    <li>개인사업자 소득세 경비처리</li>
+                    <li>기아 PV5 리스 내돈내산 후기</li>
+                    <li>무보증 장기렌트 전문업체</li>
+                    <li>친환경 상용차 보조금 혜택</li>
+                </ul>
+            </div>
+        </section>
     </main>
-  </body>
+
+    <script>
+        // FAQ 토글 기능 (사용자 편의성 및 인터랙션 강화)
+        document.querySelectorAll('.faq-item h3').forEach(item => {
+            item.addEventListener('click', () => {
+                const parent = item.parentElement;
+                parent.classList.toggle('active');
+            });
+        });
+
+        // 실시간 가상 대여료 계산 함수 (체류 시간 및 인터랙션 증진 목적)
+        function calculateEstimate() {
+            const model = document.getElementById('car-model').value;
+            const period = parseInt(document.getElementById('lease-period').value) || 60;
+            const paymentType = document.getElementById('payment-type').value;
+            const subsidyRegion = document.getElementById('subsidy-region').value;
+
+            if (!model) {
+                document.getElementById('result-box').style.display = 'none';
+                return;
+            }
+
+            let basePrice = 45000000; 
+            if (model === 'pv5_passenger') basePrice = 48000000;
+            else if (model === 'pv5_cargo') basePrice = 43000000;
+            else if (model === 'pv5_chassis') basePrice = 41000000;
+            else if (model === 'st1_cargo') basePrice = 59800000;
+            else if (model === 'st1_freezer') basePrice = 68000000;
+            else if (model === 'carnival_hybrid') basePrice = 39000000;
+            else if (model === 'staria_hybrid') basePrice = 36000000;
+
+            // 보조금 공제 시뮬레이션
+            let subsidy = 12000000; 
+            if (subsidyRegion === 'seoul') subsidy = 11000000;
+            else if (subsidyRegion === 'gyeonggi') subsidy = 12500000;
+            else if (subsidyRegion === 'jeju') subsidy = 16000000;
+            else if (subsidyRegion === 'etc') subsidy = 11500000;
+
+            const isEV = ['pv5_basic', 'pv5_passenger', 'pv5_cargo', 'pv5_chassis', 'st1_cargo', 'st1_freezer'].includes(model);
+            let netPrice = basePrice;
+            if (isEV) {
+                netPrice -= subsidy;
+            }
+
+            // 초기 보증 납부 형태에 따른 잔금 감면율
+            let rate = 1.0;
+            if (paymentType === 'deposit_10') {
+                rate = 0.95;
+            } else if (paymentType === 'prepay_20') {
+                rate = 0.80;
+            } else if (paymentType === 'prepay_30') {
+                rate = 0.70;
+            }
+
+            // 가상 대여료 공식을 이용한 잔가 보장 단순 환산
+            const residualFactor = 0.45; 
+            const financeAmount = (netPrice * rate) - (netPrice * residualFactor);
+            const monthlyBase = financeAmount / period;
+            
+            const interestFactor = 1.05;
+            let monthlyEstimate = Math.round((monthlyBase * interestFactor) / 100) * 100;
+            
+            if (monthlyEstimate < 200000) monthlyEstimate = 250000; 
+
+            document.getElementById('calc-model-name').innerText = document.getElementById('car-model').options[document.getElementById('car-model'].selectedIndex].text;
+            document.getElementById('calc-period').innerText = period + '개월';
+            document.getElementById('calc-monthly').innerText = monthlyEstimate.toLocaleString() + ' 원';
+            document.getElementById('result-box').style.display = 'block';
+        }
+    </script>
+</body>
 </html>
